@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header>img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body{
+    background-image: url(../assets/img/background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.gc_download_open{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.gc_download_open>h2{
+    font-family: 'Sigmar',sans-serif;
+    font-size: 30px;
+    margin-bottom: 2%;
+    line-height: 1;
+}
+
+.gc_download_open{
+    font-family: "DM SANS",sans-serif;
+    font-size: 15px;
+    line-height: 1.1;
+}
+
+.download_button{
+    color: black;
+    text-align :center;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2.5%;
+    border-radius: 20px ;
+    height: 30px;
+    width: 300px;
+}
+
+.open_button{
+    color: white;
+    text-align :center;
+    background-color: rgb(70, 139, 242);
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2.5%;
+    border-radius: 30px;
+    height: 30px;
+    width: 300px;
+}
+
+.card{
+    position: relative;
+    width: 310px;
+    background-color: rgb(109,115,230);
+    color: white;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-left: 25px ;
+    padding-right: 20px;
+    border-radius: 6%;
+}
+
+.card>h2{
+    font-family: 'Sigmar',sans-serif;
+    font-size: 30px;
+    margin-bottom: 2%;
+    line-height: 1;
+}
+
+.card>p{
+    font-family: "DM SANS",sans-serif;
+    line-height: 1.1;
+    font-size: 15px;
+    border-radius: 8%;
+    padding-bottom: 20px;
+}
+
+.card>img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;;
+    border-radius:6% ;
+    width: 100%;
+}
+
+.Small_icon>img{
+    position: relative;
+    width: 100px;
+    top: 0;
+    left: 10%;
+    translate: -30% -90%;
+}
+
+
